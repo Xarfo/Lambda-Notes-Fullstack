@@ -1,0 +1,28 @@
+{
+  "name": "Lambda-Notes-Fullstack",
+  "version": "1.0.0",
+  "description": "Boilerplate for ReactJS and ExpressJS",
+  "main": "index.js",
+  "repository": "https://github.com/Xarfo/Lambda-Notes-Fullstack.git",
+  "author": "Abdul Ahmad",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  },
+  "dependencies": {
+    "concurrently": "^4.0.1",
+    "cors": "^2.8.4",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "helmet": "^3.14.0",
+    "jshint": "^2.9.6",
+    "knex": "^0.15.2",
+    "logger": "^0.0.1",
+    "morgan": "^1.9.1",
+    "sqlite3": "^4.0.3"
+  }
+}
